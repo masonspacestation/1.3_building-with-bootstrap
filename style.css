@@ -1,8 +1,40 @@
 body {
-  /* background-color: whitesmoke; */
+  background-color: whitesmoke;
 }
 
-.social-img {
-  border: 10px solid red;
-  /* box-shadow: 0 4 5 rgba(72, 72, 72, 0.40); */
+.square-image:hover {
+  box-shadow: 0 4 5 rgba(72, 72, 72, 0.60);
 }
+
+.square-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 20px solid rgb(255, 255, 255);
+  object-fit: cover;
+}
+
+#content-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+/* #hero-image{
+  
+} */
